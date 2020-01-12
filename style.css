@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  position: sticky;
+  top: 0;
+}
+
+.logo img {
+  position: relative;
+  top: 5px;
+  width: 110px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background-color: #0a0a0a;
+  top: 90vh;
+}
+
+input::placeholder {
+  position: relative;
+  left: 30px;
+  color: white;
+}
+
+.menu {
+  position: relative;
+  right: 40%;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18px;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+.cart {
+  position: relative;
+  top: -45px;
+  color: #0a0a0a;
+}
+.signin a {
+  position: relative;
+  top: -45px;
+  color: #0a0a0a;
+}
+.search {
+  position: relative;
+  top: -40px;
+  font-size: 20px;
+}
+.fa-search {
+  color: #0a0a0a;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+.cart-items {
+  position: absolute;
+  top: -8px;
+  left: 21px;
+  background: #f09d51;
+  padding: 0 5px;
+  border-radius: 30%;
+  color: #fff;
+}
